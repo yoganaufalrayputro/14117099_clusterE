@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Latihan CSS </title>
+    </head>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 200px 584px;
+            background-color: #ffffff;
+        }
+        #footer{
+            border-style: solid;
+            height: 100px;
+            width: 784px;
+            background-color: rgb(179, 255, 255);
+        }
+        #header{
+            border-style:solid;
+            text-align:center;
+            height: 200px;
+            width: 784px;
+            background-color: rgb(183, 129, 233);
+            background-image: url(https://i.pinimg.com/originals/45/1a/71/451a7167c94052ceed7ec3e72757e01c.jpg);
+            background-position: center;
+        }
+        .right{
+            border-style: solid;
+            height: auto;
+            background-color: rgb(243, 134, 134);
+        }
+        .left{
+            border-style: solid;
+            border-right: 0px;
+            height: auto;
+            background-color: rgb(217, 245, 210);
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 200px;
+                background-color: green;
+            }
+            li a {
+                display: block;
+                color: #000;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+            li a:hover {
+                background-color: #555;
+                color: white;
+            }
+        }   
+    </style>
+    <header>
+        <p id="header"><p>
+    </header>
+
+
+    <body>
+        <div class="grid-container">
+            <div class="left">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            </div>
+            <div class="right">
+                <h1>Form HTML</h1>
+Nama: <input type="text" name="nama" value=" " />
+<br />
+Gender : 
+<input type="radio" name="Gender" value="Man" checked /> 
+Man
+<input type="radio" name="Gender" value="Woman" /> 
+Woman
+<br />
+Address: <input type="text" name="nama" value=" " />
+<br />
+Country:
+ <select name="asal_kota" >
+     <option value="Kota Jakarta"> Jakarta</option>
+     <option value="Kota Bandung">Bandung</option>
+     <option value="Kota Semarang" selected>Jakarta</option>
+ </select>
+<br />
+Email:   <input type="textbold" name="email" value=" " />
+<br />
+Photo: <input type="file" name="upload" value="" width="200" />
+<br />
+
+Comment:
+<textarea name="komentar" rows="5" cols="50"></textarea>
+<br>
+<input type="submit" value=" Submit" >
+<br />
+            </div>
+        </div>
+    </body>
+    <footer>
+        <p id="footer"> 
+            Nama    : YOGA NAUFAL RAY PUTRO<br>
+            NIM         : 14117099  
+
+        </p>
+    </footer>
+</html>
