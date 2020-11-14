@@ -1,0 +1,20 @@
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-style: Helvetica;
+  background-color: grey; }
+.navbar li {
+  float: right;
+  margin-right: 20px; }
+.navbar li a {
+  display: block;
+  column-rule-color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none; }
+.navbar li a:hover {
+  background-color: #b9dbdb; }
+
+/*# sourceMappingURL=navbar.css.map */

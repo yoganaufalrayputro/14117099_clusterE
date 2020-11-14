@@ -1,0 +1,22 @@
+.sidebar {
+  float: left;
+  height: auto;
+  width: 300px;
+  background-color: white; }
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    width: 200px;
+    text-align: center;
+    background-color: white; }
+  .sidebar li a {
+    display: block;
+    color: black;
+    padding: 10px 16px;
+    width: 250px;
+    text-decoration: none; }
+  .sidebar li a:hover {
+    background-color: grey;
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */
